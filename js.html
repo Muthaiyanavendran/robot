@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R O B O T</title>
+    <link rel="stylesheet" href="js.css">
+    <script type="text/javaScript">
+        function testKeyCode(e) {
+        var keycode;
+        if (window.event) keycode = window.event.keyCode;
+        else if (e) keycode = e.which;
+        var e = e || window.event;
+                   if (e.ctrlKey &&
+                          (e.keyCode === 67 ||
+                           e.keyCode === 86 ||
+                           e.keyCode === 85 ||
+                           e.keyCode === 117)) {
+            alert('This website is protected against attempts to clone. Your IP has been duly recorded on our server and if you persist it will be forwarded to the competent authorities');
+           return false;
+           } else {
+            return true;
+           }
+        }
+        document.onkeydown = testKeyCode;
+        </script>
+
+
+
+
+
+</head>
+<body>
+    <div id="Gusivijay">
+    <IMG SRC="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmZ42P98zmddCedDXUwFJ4HslS7bZf4jk7jm5oP1OJg0nfyikH4npFmoMz6q0MZId2cxmGX-ngJ2ZiVtYCoe0cMxfOFud-Viy7vB3C032kkogMYSQwmPbYgj5zsMPAhP5jvUEJxuYxTjkU2AdC846iPCu9kN6fj5ep-r_YlYshLlmzALo91_sCbINoaho/s800/BITY%20-%20The%20party%20robot.gif" weidth="1000" height="1000">
+    </div>
+</body>
+</html>
